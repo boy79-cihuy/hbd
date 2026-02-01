@@ -288,7 +288,7 @@ button {
  .kartu {
       background: rgba(255, 255, 255, 0.9);
       padding: 30px;
-      max-width: 70%;
+      max-width: 100%;
   
       margin-bottom: 60px;
       border-radius: 20px;
@@ -567,9 +567,12 @@ button {
   #step2 {
     flex-direction: column; /* 🔽 turun ke bawah */
     align-items: center;
+   
   }
 
   .photo-card {
-    width: 90%;
+    width: 90%; 
+    margin-right: 0%;
+    margin-left: 0%;
   }
 }
