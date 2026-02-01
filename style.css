@@ -23,7 +23,7 @@ body {
 /* 🎊 confetti jatuh */
 body::before {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   background-image:
     radial-gradient(#ff595f8f 2px, transparent 2px),
@@ -578,3 +578,4 @@ button {
     
   }
 }
+
