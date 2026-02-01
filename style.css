@@ -3,19 +3,25 @@
    ============================================================ */
 
 body {
-  font-family: "Poppins", sans-serif;
- background: radial-gradient(circle at top, #8a0606, #810c03 55%, #7e0202);
+ font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #8a0606, #810c03 55%, #7e0202);
 
-  min-height: 110vh;
+  min-height: 100svh;
+  min-height: 100vh;
+
   margin: 0;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding-top: env(safe-area-inset-top);
-  padding-top: 60px;
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);;
+
   overflow-x: hidden;
-    position: relative;
+  position: relative;
     
 }
 
@@ -578,4 +584,3 @@ button {
     
   }
 }
-
