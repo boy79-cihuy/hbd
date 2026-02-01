@@ -11,7 +11,8 @@ body {
   color: #fff;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  padding-top: env(safe-area-inset-top);
   padding-top: 60px;
   overflow-x: hidden;
     position: relative;
@@ -574,5 +575,6 @@ button {
     width: 90%; 
     margin-right: 0%;
     margin-left: 0%;
+    
   }
 }
